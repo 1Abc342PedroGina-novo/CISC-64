@@ -1,12 +1,12 @@
 // ============================================================================
-// Arquivo: headers/registers/rdi.svh
-// Projeto: x86_64 Hardware Architecture Implementation
-// Autor: Pedro Emanuel
-// Licença: GPL-3.0-only
+// File: headers/registers/rdi.svh
+// Project: x86_64 Hardware Architecture Implementation
+// Author: Pedro Emanuel
+// License: GPL-3.0-only
 //
-// Descrição: Declaração de pacotes, tipos de dados, estruturas, máscaras,
-//            telemetria, interfaces e assinatura do módulo para o registrador
-//            de destino RDI (Intel 64 / AMD64 Architecture).
+// Description: Declaration of packages, data types, structures, masks,
+//              telemetry, interfaces, and module signature for the RDI
+//              destination register (Intel 64 / AMD64 Architecture).
 // ============================================================================
 
 `ifndef HEADERS_REGISTERS_RDI_SV
