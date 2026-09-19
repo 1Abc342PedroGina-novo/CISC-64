@@ -6,13 +6,13 @@ This project aims to create an architecture based on the Intel and AMD x86_64 ar
 # LANGUAGES USED:
 
 microcode : Micro Assembly, C.
-isa-i386 : System Verilog.
-isa-risc : System Verilog.
+isa-i386 : SystemVerilog.
+isa-risc : SystemVerilog.
 
 # LICENSE
 
-This code is licencied for GPL-3.0-only, see the license in file "LICENSE" for more details.
+This code is licensed under the GPL-3.0-only license, see the license in file "LICENSE" for more details.
 
 # ABOUT ME
 
-Meu nome é Pedro Emanuel. Sou cristão ortodoxo ☦️, mas, por favor, desconsidere isso. Estou falando em inglês usando o Google Tradutor; portanto, peço que releve eventuais falhas no idioma. Além disso, há alguns comentários no meu idioma nativo — o português brasileiro —; por favor, utilize um tradutor para compreendê-los.
+My name is Pedro Emanuel. I am an Orthodox Christian ☦️, but please disregard that. I am speaking English using Google Translate, so please overlook any poor English. Additionally, there are some comments in my native language—Brazilian Portuguese—so please use a translator to understand them.
