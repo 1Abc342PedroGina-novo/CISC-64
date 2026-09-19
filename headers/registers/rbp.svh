@@ -1,3 +1,14 @@
+// ============================================================================
+// File: headers/registers/rbp.svh
+// Project: x86_64 Hardware Architecture Implementation
+// Author: Pedro Emanuel
+// License: GPL-3.0-only
+//
+// Description: Declaration of packages, data types, structures, masks,
+//              telemetry, interfaces, and module signature for the
+//              Base Pointer RBP register (Intel 64 / AMD64 Architecture).
+// ============================================================================
+
 `ifndef HEADERS_REGISTERS_RBP_SV
 `define HEADERS_REGISTERS_RBP_SV
 package rbp_pkg;
