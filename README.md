@@ -12,3 +12,7 @@ isa-risc : System Verilog.
 # LICENSE
 
 This code is licencied for GPL-3.0-only, see the license in file "LICENSE" for more details.
+
+# ABOUT ME
+
+Meu nome é Pedro Emanuel. Sou cristão ortodoxo ☦️, mas, por favor, desconsidere isso. Estou falando em inglês usando o Google Tradutor; portanto, peço que releve eventuais falhas no idioma. Além disso, há alguns comentários no meu idioma nativo — o português brasileiro —; por favor, utilize um tradutor para compreendê-los.
