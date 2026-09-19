@@ -4,7 +4,7 @@
 // file : headers/registers/rax.svh
 // =============================================================================
 
-'ifndef __HEADERS_REGISTERS_RAX_SV__
+`ifndef __HEADERS_REGISTERS_RAX_SV__
 `define __HEADERS_REGISTERS_RAX_SV__
 
 package rax_pkg;
