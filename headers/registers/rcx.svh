@@ -9,8 +9,8 @@
 //              counter register (Intel 64 / AMD64 Architecture).
 // ============================================================================
 
-'ifndef HEADERS_REGISTERS_RCX_SV
-'define HEADERS_REGISTERS_RCX_SV
+`ifndef HEADERS_REGISTERS_RCX_SV
+`define HEADERS_REGISTERS_RCX_SV
 package rcx_pkg;
 
     // ------------------------------------------------------------------------
@@ -143,4 +143,4 @@ module rcx_register (
     // deve ser mantida em um arquivo separado (.sv).
 endmodule : rcx_register
 
-'endif // HEADERS_REGISTERS_RCX_SV
+`endif // HEADERS_REGISTERS_RCX_SV
