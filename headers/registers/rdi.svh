@@ -142,4 +142,4 @@ module rdi_register (
     // deve ser mantida num arquivo separado (.sv).
 endmodule : rdi_register
 
-`endif // RDI_REGISTER_PKG_SVH
+`endif // HEADERS_REGISTERS_RCX_SV
