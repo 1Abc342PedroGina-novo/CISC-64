@@ -1,7 +1,7 @@
 // =============================================================================
 // SPDX License Indentifier: GPL-3.0
 // Copyright (C) Pedro Emanuel
-// file : headers/registers/rax.sv
+// file : headers/registers/rax.svh
 // =============================================================================
 
 ifndef __HEADERS_REGISTERS_RAX_SV__
