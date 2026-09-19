@@ -136,3 +136,4 @@ module rip_register (
 );
 
 endmodule : rip_register
+`endif // __HEADERS_REGISTERS_RIP_SV__
