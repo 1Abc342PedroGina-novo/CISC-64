@@ -1,18 +1,30 @@
+# 🚀 x86_64 Custom Hardware Architecture Project
 
-# ABOUT THIS PROJECT
+This project aims to design a custom hardware architecture based on Intel and AMD x86_64 architectures. 
 
-This project aims to create an architecture based on the Intel and AMD x86_64 architectures. It follows a philosophy similar to that of software like Linux and ReactOS—where the design principles of the original kernels (UNIX-like/Windows-like, hybrid kernels) are adopted to build new software from scratch—but applies this approach to hardware architecture. It incorporates microcode and both CISC and RISC ISAs, with the CISC ISA being translated into the RISC ISA via microcode, mirroring the implementation found in modern Intel and AMD architectures. The project is currently in its early stages, and I am seeking collaborators, as I am currently working on it alone.
+Following a philosophy similar to Linux and ReactOS—where the design principles of original kernels (UNIX/Windows) are adopted to build new software from scratch—this project applies that same approach to **hardware architecture**. 
 
-# LANGUAGES USED:
+It incorporates both CISC and RISC ISAs, along with custom microcode. The CISC ISA is translated into the RISC ISA via microcode, mirroring the implementation found in modern Intel and AMD processors.
 
-microcode : Micro Assembly, C.
-isa-i386 : SystemVerilog.
-isa-risc : SystemVerilog.
+---
 
-# LICENSE
+## 🛠️ Status & Help Wanted
+The project is currently in its **very early stages**, and I am working on it completely alone. **Collaborators and contributors are highly welcome!** If you have experience with computer architecture, processor design, or HDL, your help would be invaluable.
 
-This code is licensed under the GPL-3.0-only license, see the license in file "LICENSE" for more details.
+### 💻 Languages & Technologies Used:
+* **Microcode:** Micro Assembly, C
+* **isa-i386:** SystemVerilog
+* **isa-risc:** SystemVerilog
 
-# ABOUT ME
+---
 
-My name is Pedro Emanuel. I am an Orthodox Christian ☦️, but please disregard that. I am speaking English using Google Translate, so please overlook any poor English. Additionally, there are some comments in my native language—Brazilian Portuguese—so please use a translator to understand them.
+## 📄 License
+This repository is licensed under the **GPL-3.0-only** license. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 👤 About Me
+My name is Pedro Emanuel. I am an Orthodox Christian ☦️. 
+
+* **Language Note:** I am using Google Translate to communicate in English, so please overlook any language imperfections. 
+* **Code Comments:** Some comments within the source code are written in my native language, Brazilian Portuguese (pt-BR). Please use a translator if needed, or feel free to help me translate them into English!
