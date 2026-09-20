@@ -8,6 +8,7 @@ SOURCE_DIR/headers/registers/rflags/iopl.svh
 SOURCE_DIR/headers/registers/rflags/nt.svh
 SOURCE_DIR/headers/registers/rflags/of.svh
 SOURCE_DIR/headers/registers/rflags/pf.svh
+SOURCE_DIR/headers/registers/rflags/reserved.svh
 SOURCE_DIR/headers/registers/rflags/rf.svh
 SOURCE_DIR/headers/registers/rflags/sf.svh
 SOURCE_DIR/headers/registers/rflags/tf.svh
@@ -15,3 +16,5 @@ SOURCE_DIR/headers/registers/rflags/vif.svh
 SOURCE_DIR/headers/registers/rflags/vip.svh
 SOURCE_DIR/headers/registers/rflags/vm.svh
 SOURCE_DIR/headers/registers/rflags/zf.svh
+
+MOVE *.svh == SOURCE_DIR/temporary
