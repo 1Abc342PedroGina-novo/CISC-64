@@ -8,8 +8,8 @@
 //              logic of the ZMM and YMM bit of AVX Technology. used in Long Mode.
 // ============================================================================
 
-`ifndef ZMM_REGISTERS_PKG_SVH
-`define ZMM_REGISTERS_PKG_SVH
+`ifndef HEADERS_REGISTERS_ZMM_SV
+`define HEADERS_REGISTERS_ZMM_SV
 
 package ymm_pkg;
 
@@ -247,4 +247,4 @@ module zmm_register (
     // devem ser mantidos no arquivo .sv correspondente.
 endmodule : zmm_register
 
-`endif // ZMM_REGISTERS_PKG_SVH
+`endif // HEADERS_REGISTERS_ZMM_SV
