@@ -6,24 +6,25 @@ package instruction_declaration_pkg;
   
 package isa_opcodes_pkg;
 
-    typedef enum logic [7:0] {
-        OP_ADC = 8'h00, OP_ADD = 8'h01, OP_AND = 8'h02, OP_CALL = 8'h03,
-        OP_CBW = 8'h04, OP_CDQE = 8'h05, OP_CLC = 8'h06, OP_CLD = 8'h07,
-        OP_CMC = 8'h08, OP_CMP = 8'h09, OP_CMOV = 8'h0A, OP_CMPXCHG = 8'h0B,
-        OP_CPUID = 8'h0C, OP_CPUNAME = 8'h0D, OP_CPUNR = 8'h0E, OP_DEC = 8'h0F,
-        OP_DIV = 8'h10, OP_IDIV = 8'h11, OP_IMUL = 8'h12, OP_INC = 8'h13,
-        OP_INT32 = 8'h14, OP_INT64 = 8'h15, OP_JCC = 8'h16, OP_JMP = 8'h17,
-        OP_KECALL = 8'h18, OP_LEA = 8'h19, OP_LEAVE = 8'h1A, OP_LOOP = 8'h1B,
-        OP_MOV = 8'h1C, OP_MOVSTR = 8'h1D, OP_MOVZX = 8'h1E, OP_NEG = 8'h1F,
-        OP_NOP = 8'h20, OP_NOR = 8'h21, OP_OR = 8'h22, OP_POP = 8'h23,
-        OP_POPF = 8'h24, OP_POPQ = 8'h25, OP_PUSH = 8'h26, OP_PUSHF = 8'h27,
-        OP_PUSHQ = 8'h28, OP_RCL = 8'h29, OP_RCR = 8'h2A, OP_RET = 8'h2B,
-        OP_ROL = 8'h2C, OP_ROR = 8'h2D, OP_SAHF = 8'h2E, OP_SAL = 8'h2F,
-        OP_SAR = 8'h30, OP_SBB = 8'h31, OP_SCONSTR = 8'h32, OP_SETCC = 8'h33,
-        OP_SHL = 8'h34, OP_SHR = 8'h35, OP_STD = 8'h36, OP_STC = 8'h37,
-        OP_STORE = 8'h38, OP_STORESTR = 8'h39, OP_SUB = 8'h3A, OP_SYSCALL = 8'h3B,
-        OP_SYSMGR = 8'h3C, OP_TEST = 8'h3D, OP_CHG = 8'h3E, OP_XLAT = 8'h3F,
-        OP_XOR = 8'h40
+typedef enum logic [7:0] {
+        OP_ADC        = 8'h00, OP_ADD        = 8'h01, OP_AND        = 8'h02, OP_CALL       = 8'h03,
+        OP_CBW        = 8'h04, OP_CDQE       = 8'h05, OP_CLC        = 8'h06, OP_CLD        = 8'h07,
+        OP_CMC        = 8'h08, OP_CMP        = 8'h09, OP_CMOV       = 8'h0A, OP_CMPXCHG    = 8'h0B,
+        OP_CPUID      = 8'h0C, OP_CPUNAME    = 8'h0D, OP_CPUNR      = 8'h0E, OP_DEC        = 8'h0F,
+        OP_DIV        = 8'h10, OP_IDIV       = 8'h11, OP_IMUL       = 8'h12, OP_INC        = 8'h13,
+        OP_INT32      = 8'h14, OP_INT64      = 8'h15, OP_JCC        = 8'h16, OP_JMP        = 8'h17,
+        OP_KECALL     = 8'h18, OP_LEA        = 8'h19, OP_LEAVE      = 8'h1A, OP_LOOP       = 8'h1B,
+        OP_MOV        = 8'h1C, OP_MOVSTR     = 8'h1D, OP_MOVZX      = 8'h1E, OP_NEG        = 8'h1F,
+        OP_NOP        = 8'h20, OP_NOR        = 8'h21, OP_OR         = 8'h22, OP_POP        = 8'h23,
+        OP_POPF       = 8'h24, OP_POPQ       = 8'h25, OP_PUSH       = 8'h26, OP_PUSHF      = 8'h27,
+        OP_PUSHQ      = 8'h28, OP_RCL        = 8'h29, OP_RCR        = 8'h2A, OP_RET        = 8'h2B,
+        OP_ROL        = 8'h2C, OP_ROR        = 8'h2D, OP_SAHF       = 8'h2E, OP_SAL        = 8'h2F,
+        OP_SAR        = 8'h30, OP_SBB        = 8'h31, OP_SCONSTR    = 8'h32, OP_SETCC      = 8'h33,
+        OP_SHL        = 8'h34, OP_SHR        = 8'h35, OP_STD        = 8'h36, OP_STC        = 8'h37,
+        OP_STORE      = 8'h38, OP_STORESTR   = 8'h39, OP_SUB        = 8'h3A, OP_SYSCALL    = 8'h3B,
+        OP_SYSMGR     = 8'h3C, OP_TEST       = 8'h3D, OP_CHG        = 8'h3E, OP_XLAT       = 8'h3F,
+        OP_XOR        = 8'h40, OP_LGDT       = 8'h41, OP_LIDT       = 8'h42, OP_SAVECTX    = 8'h43,
+        OP_RESTORECTX = 8'h44
     } opcode_e;
 
 endpackage : isa_opcodes_pkg
