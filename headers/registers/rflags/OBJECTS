@@ -1,0 +1,17 @@
+SOURCE_DIR/headers/registers/rflags/ac.svh
+SOURCE_DIR/headers/registers/rflags/af.svh
+SOURCE_DIR/headers/registers/rflags/cf.svh
+SOURCE_DIR/headers/registers/rflags/df.svh
+SOURCE_DIR/headers/registers/rflags/id.svh
+SOURCE_DIR/headers/registers/rflags/if.svh
+SOURCE_DIR/headers/registers/rflags/iopl.svh
+SOURCE_DIR/headers/registers/rflags/nt.svh
+SOURCE_DIR/headers/registers/rflags/of.svh
+SOURCE_DIR/headers/registers/rflags/pf.svh
+SOURCE_DIR/headers/registers/rflags/rf.svh
+SOURCE_DIR/headers/registers/rflags/sf.svh
+SOURCE_DIR/headers/registers/rflags/tf.svh
+SOURCE_DIR/headers/registers/rflags/vif.svh
+SOURCE_DIR/headers/registers/rflags/vip.svh
+SOURCE_DIR/headers/registers/rflags/vm.svh
+SOURCE_DIR/headers/registers/rflags/zf.svh
