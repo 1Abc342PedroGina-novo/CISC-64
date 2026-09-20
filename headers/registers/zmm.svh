@@ -1,3 +1,13 @@
+// ============================================================================
+// File: headers/registers/zmm.svh
+// Project: x86_64 Hardware Architecture Implementation
+// Author: Pedro Emanuel
+// License: GPL-3.0-only
+//
+// Description: Package, interface, and module dedicated exclusively to the
+//              logic of the ZMM and YMM bit of AVX Technology. used in Long Mode.
+// ============================================================================
+
 `ifndef ZMM_REGISTERS_PKG_SVH
 `define ZMM_REGISTERS_PKG_SVH
 
